@@ -5,10 +5,10 @@ Liste des librairies néccéssaires : platform, subprocess (pré-installé), sys
 
 Pour installer les librairies, saisissez ces commandes dans le terminal :
 
----bash
+```bash
 python -m pip install requests
 python -m pip install platform
 python -m pip install tk
 python -m pip install distro
 
----
+```
