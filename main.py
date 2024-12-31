@@ -77,6 +77,9 @@ def on_play_button_click():
         except subprocess.CalledProcessError as e:
             print(f"Échec de l'exécution de portablemc : {e}")
 
+def connect():
+
+
 def main():
     python_version = check_python()
     check_tkinter()
@@ -105,7 +108,8 @@ def main():
     # Ajoute un bouton "Jouer"
     play_button = tk.Button(root, text="Jouer", command=on_play_button_click)
     play_button.pack(pady=20)
-
+    login_button = tk.Button(root, text="Se Connecter", command=connect)
+    login_button.pack(pady=20)
     # Label pour afficher les messages d'erreur
     global error_label
     error_label = tk.Label(root, text="", fg="red")
