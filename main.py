@@ -63,7 +63,7 @@ def on_play_button_click():
     available_versions = fetch_minecraft_versions()
 
     # Vérifie si la version saisie est dans les versions disponibles
-    if entered_version not in available_versions:
+    if 1 == 2 :
         error_message = f"Erreur : La version '{entered_version}' n'est pas valide ou n'est pas disponible."
         print(error_message)
         error_label.config(text=error_message, fg="red")
