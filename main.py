@@ -94,7 +94,7 @@ def main():
     root.title("FRMC Launcher")
 
     # Dimensions de la fenêtre (largeur x hauteur)
-    root.geometry("400x300")
+    root.geometry("600x300")
 
     # Ajoute un label pour la version
     label_version = tk.Label(root, text="Saisissez la version :")
