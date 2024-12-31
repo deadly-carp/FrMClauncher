@@ -88,7 +88,7 @@ def main():
     root = tk.Tk()
 
     # Définit le titre de la fenêtre
-    root.title("Fenêtre Tkinter")
+    root.title("FRMC Launcher")
 
     # Dimensions de la fenêtre (largeur x hauteur)
     root.geometry("400x300")
